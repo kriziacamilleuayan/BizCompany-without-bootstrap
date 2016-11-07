@@ -30,12 +30,12 @@ html,body{
 
 nav {
 	background-color: rgb(100, 97, 140);
-	padding: 1%;
+	/*padding: 1%;*/
 }
 
 nav a {
 	text-decoration: none;
-	padding: 1%;
+	padding: 2%;
 	font-size: 24px;
 	color: white;
 }
@@ -79,11 +79,21 @@ nav a:hover {
 	color: white;
 }
 
-.btn:hover{
+.btn-blue:hover{
 	background-color: #64618c;
 }
 
 .btn-blue{
 	background-color: #27aae1;
 	color: white;
+}
+
+.btn-white:hover{
+	background-color: #f2f2ff;
+	color: #26a8fc;
+}
+
+.btn-white{
+	background-color: #26a8fc;
+	color: #ffffff;
 }
